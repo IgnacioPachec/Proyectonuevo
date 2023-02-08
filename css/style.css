@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-<!--Footer--!>
 
 .redes {
     display: flex;
@@ -29,7 +28,7 @@
     color: rgb(102, 39, 39);
 }
 
-<!--Main Index-->
+
 
 .ver {
     display: flex;
@@ -50,6 +49,7 @@
     align-items: center;
     justify-content: space-evenly;
     min-height: 100vh;
+
 }
 
 
@@ -60,7 +60,7 @@
     text-decoration: underline;
 }
 
-<!--Aside--!>
+
 
 .img {
     width: 50%;
@@ -78,7 +78,7 @@
     text-decoration: underline;
 }
 
--
+
 
 .pro {
     display: flex;
@@ -87,7 +87,7 @@
     padding: 20px;
 }
 
-<!--Main contacto --!>
+
 
 .contacto {
     text-decoration: underline;
@@ -100,7 +100,7 @@
     margin: 8px;
 }
 
-<!--Main acercadenosotros --!>
+
 
 .maps {
     text-align: center;
@@ -126,7 +126,6 @@
     text-align: center;
 }
 
-<!--Cards productos -->
 
 .row{
     display: flex;
@@ -159,19 +158,26 @@
     justify-content: center;
 }
 
-@media (max-width:800px) {
-    .row{
-        flex-direction: row;
-    }
+@media (min-width : 901px) {
+.row{
+    display: flex;
+    flex-direction: auto;
+}
 }
 
-
-@media (max-width:300px){
+@media  (max-width : 600px) {
     .row{
-        flex-direction: column;
         display: flex;
+        flex-direction: column;
     }
-}
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 80px;
+    }
+    }
 
 
 

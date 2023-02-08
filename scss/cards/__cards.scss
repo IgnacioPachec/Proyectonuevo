@@ -1,0 +1,26 @@
+.row .card{
+    width: 30px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px;
+    transition: all 400rs ease-out;
+    cursor: default;
+
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px;
+    transform: translateY(-3%);
+    rgba( 0, 0, 0, 0,4);
+}
+
+.card img{
+    max-width: 1100px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+}
