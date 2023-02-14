@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="ropa, pagina">
+    <meta name="description" content="Inicio indumentaria">
     <title>Stripe</title>
     <!--Icono-->
-    <link rel="shortcut icon" href="../Assets/stripe.svg">
+    <link rel="shortcut icon" href="../assets/stripe.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,7 +24,7 @@
     <header> <!--NAVBAR BOOTSTRAP-->
         <nav class="navbar bg-body-tertiary fixed-top position-relative">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="./inicio.html">
                     <img src="../Assets/stripe.svg" alt="" width="90" height="80">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -74,36 +75,37 @@
     </header>
 
     <main><!--CARDS BOOTSTRAP, mostrando los 3 productos vendidos por la pagina-->
-        
+        <h3 class="titulo">¡Bienvenidos!</h3>
         <div class="abs-center position-relative cards">
             <div class="card-img-top" style="width: 18rem;">
-                <img src="../Imagenes/Pantalon pagina.jpg" class="card-img-top rounded" alt="...">
+                <img src="../Imagenes/Pantalon pagina.jpg" class="card-img-top rounded" alt="pantalon">
                 <div class="card-body">
                     <h5 class="card-title">Jeans</h5>
                     <p class="card-text">
                     </p>
-                    <a href="#" class="btn btn-primary">Ver producto</a>
+                    <a href="./Productos.html" class=" btn btn-outline-dark texto">Ver producto</a>
                 </div>
             </div>
             <div class="card-img-top" style="width: 18rem;">
-                <img src="../Imagenes/Remera negra destacada.jpg" class="card-img-top rounded" alt="...">
+                <img src="../Imagenes/Remera negra destacada.jpg" class="card-img-top rounded" alt="remera negra">
                 <div class="card-body ">
                     <h5 class="card-title">Remeras</h5>
                     <p class="card-text">
                     </p>
-                    <a href="#" class="btn btn-primary">Ver producto</a>
+                    <a href="./Productos.html" class="btn btn-outline-dark texto ">Ver producto</a>
                 </div>
             </div>
             <div class="card-img-top" style="width: 18rem;">
-                <img src="../Imagenes/Sueter pagina.jpg" class="card-img-top rounded" alt="...">
+                <img src="../Imagenes/Sueter pagina.jpg" class="card-img-top rounded" alt="sueter">
                 <div class="card-body">
-                    <h5 class="card-title">Sueters</h5>
+                    <h5 class="card-title ">Sueters</h5>
                     <p class="card-text">
                     </p>
-                    <a href="#" class="btn btn-primary">Ver producto</a>
+                    <a href="./Productos.html" class="btn btn-outline-dark texto">Ver producto</a>
                 </div>
             </div>
         </div>
+
         <!--NAVBAR BOOTSTRAP iniciando con su usuario tendria un descuento-->
         <nav class="navbar bg-body-tertiary">
             <form class="container-fluid">
@@ -111,7 +113,7 @@
                     <span class="input-group-text" id="basic-addon1">Usuario</span>
                     <input type="text" class="form-control" placeholder="" aria-label="Username"
                         aria-describedby="basic-addon1">
-                    <button type="button" class="btn btn-primary"
+                    <button type="button" class="btn btn-outline-success "
                         style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
                         Ingresar
                     </button>
@@ -119,12 +121,12 @@
             </form>
         </nav>
     </main>
-    
+
     <aside><!--Imagen con formas de pago-->
         <h3 class="descripcion fs-4">Todas tus formas de pago</h3>
-        <img src="../Imagenes/Imagen de forma de pagos2.png" class="img-fluid img" alt="...">
+        <img src="../Imagenes/Imagen de forma de pagos2.png" class="img-fluid img" alt="forma de pago">
     </aside>
-    
+
     <footer><!--Iconos con redes sociales linkeables-->
         <nav class="redes">
             <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp fa-2x whap "></i></a>
