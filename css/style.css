@@ -12,13 +12,25 @@
     background-color: rgb(239, 233, 233)
 }
 
-.derechos {
-    display: flex;
-    justify-content: center;
-    padding: 3%;
-    font-weight: bolder;
+footer {
     background-color: rgb(239, 233, 233)
 }
+
+.derechos {
+    font-size: 14px;
+    color: #131212;
+}
+
+.derechos article {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
 
 .whap {
     color: rgb(5, 172, 5);
@@ -175,6 +187,7 @@
     text-decoration: none;
 }
 
+/*mediaqueries*/
 @media (min-width : 901px) {
     .row {
         display: flex;
@@ -200,5 +213,49 @@
         flex-direction: column;
         justify-content: center;
     }
+}
+
+/*crear usuario*/
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
