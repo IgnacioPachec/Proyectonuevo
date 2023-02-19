@@ -84,18 +84,13 @@
                 en este espacio
             </p>
         </nav>
-        <div class="mb-3 ">
-            <label for="exampleFormControlInput1" class="form-label contacto">Nombre de usuario:</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre de usuario">
-        </div>
-        <div class="mb-3 ">
-            <label for="exampleFormControlTextarea1" class="form-label contacto">Contacto:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-        </div>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <button class="btn btn-primary me-md-2 botonC" type="button">Enviar</button>
-
-        </div>
+        <form action="enviar.php" method="post">
+            <label for="username">Nombre de usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
     </main>
 
     <footer><!--REDES LINKEABLES-->

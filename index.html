@@ -75,49 +75,39 @@
 
     <main><!--CARDS BOOTSTRAP, mostrando los 3 productos vendidos por la pagina-->
         <h3 class="pro">¡Bienvenidos!</h3>
-        <div class="abs-center cards">
-            <div class="card-img-top" style="width: 18rem;">
-                <img src="./Imagenes/Pantalon pagina.jpg" class="card-img-top rounded" alt="pantalon">
-                <div class="card-body">
-                    <h5 class="card-title jeans">Jeans</h5>
-                    <p class="card-text">
-                    </p>
-                    <a href="./pages/Productos.html"><button type="button" class="btn btn-outline-dark ver">Ver producto</button></a>
+        <div class="image-gallery">
+            <div class="image">
+                <img src="../imagenes/Remera negra destacada.jpg" alt="Imagen 1">
+                <div class="overlay">
+                    <a href="./pages/productos.html"><button>Ver más</button></a>
                 </div>
             </div>
-            <div class="card-img-top" style="width: 18rem;">
-                <img src="./Imagenes/Remera negra destacada.jpg" class="card-img-top rounded" alt="remera">
-                <div class="card-body ">
-                    <h5 class="card-title jeans ">Remeras</h5>
-                    <p class="card-text">
-                    </p>
-                    <a href="./pages/Productos.html"><button type="button" class="btn btn-outline-dark ver ">Ver producto</button></a>
+            <div class="image">
+                <img src="../imagenes/Pantalones destacados.jpg" alt="Imagen 2">
+                <div class="overlay">
+                    <a href="./pages/productos.html"><button>Ver más</button></a>
                 </div>
             </div>
-            <div class="card-img-top" style="width: 18rem;">
-                <img src="./Imagenes/Sueter pagina.jpg" class="card-img-top rounded" alt="sueter">
-                <div class="card-body">
-                    <h5 class="card-title jeans ">Sueters</h5>
-                    <p class="card-text">
-                    </p>
-                    <a href="./pages/Productos.html"><button type="button" class="btn btn-outline-dark ver ">Ver producto</button></a>
+            <div class="image">
+                <img src="../imagenes/Sueter destacado.jpg" alt="Imagen 3">
+                <div class="overlay">
+                    <a href="./pages/productos.html"><button>Ver más</button></a>
                 </div>
             </div>
         </div>
-                <!--NAVBAR BOOTSTRAP iniciando con su usuario tendria un descuento-->
-                <nav class="navbar bg-body-tertiary">
-                    <form class="container-fluid">
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="basic-addon1">@</span>
-                            <input type="text" class="form-control" placeholder="Usuario" aria-label="Username"
-                                aria-describedby="basic-addon1">
-                                <button type="button" class="btn btn-outline-success">Ingresar</button>
-                        </div>
-                    </form>
-                </nav>
     </main>
 
-    <aside><!--Imagen con formas de pago-->
+    <aside>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand aside" href="#">
+                    <img src="../assets/stripe.svg" alt="Bootstrap" width="300px" height="50px">
+                    <img src="../assets/stripe.svg" alt="Bootstrap" width="500px" height="50px">
+                    <img src="../assets/stripe.svg" alt="Bootstrap" width="200px" height="50px">
+                </a>
+            </div>
+        </nav>
+        <!--Imagen con formas de pago-->
         <h3 class="descripcion fs-4">Todas tus formas de pago</h3>
         <img src="./Imagenes/Imagen de forma de pagos2.png" class="img-fluid img" alt="...">
     </aside>

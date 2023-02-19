@@ -1,0 +1,62 @@
+/*footer derechos reservados*/
+.derechos{
+    font-size: 14px;
+    color: $secondary;
+
+    article{
+        text-align: center;
+        margin-top: 10px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+}
+
+/*titulos*/
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-decoration: underline;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: $secondary ;
+    margin-top: 80px;
+}
+
+/*acerca de nosotros*/
+.ubicacion {
+    text-decoration: underline;
+}
+
+.numero {
+    text-decoration: underline;
+}
+
+.email {
+    text-decoration: underline;
+}
+
+/*h3 del footer*/
+.descripcion {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    padding-top: 40px;
+}
+
+/*h3 del index con titulo de la pagina*/
+.pro {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: $secondary ;
+    margin-top: 40px;
+}
